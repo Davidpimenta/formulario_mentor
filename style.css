@@ -141,10 +141,16 @@ li{
 #subscribe-success{
     display: none;
     position: relative;
-    padding-top: 25%;
     padding-left: 25px;
     padding-right: 25px;
-    height: 85%;
+    height: 100% ;
+}
+
+
+#div-success{
+    position: absolute;
+    top: 40%;
+    transform: translate(0%,-40%);
 }
 
 #icon-success{
@@ -161,6 +167,7 @@ li{
 }
 
 #btn-success{
+    cursor: pointer;
     width: calc(100% - 50px);
     margin-top: 25px;
     display: flex;
@@ -170,7 +177,6 @@ li{
     background-color: hsl(235, 18%, 26%);
     border:  0;
     border-radius: 5px;
-    transition: 1s;
     transition: 1s;
     position: absolute;
     top: 90%;

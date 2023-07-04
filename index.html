@@ -7,6 +7,7 @@
     <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
     <link rel="shortcut icon" sizes="32x32" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +16,8 @@
 <body>
     <main>
         <div id="subscribe-email">
-            <img src="imagens/illustration-sign-up-mobile.svg" alt="">
-            <div id="formulario-conteiner" class="child-main">
+            <img src="imagens/illustration-sign-up-desktop.svg" alt="" id="ilustration">
+            <div id="formulario-conteiner">
                 <div id="titulo" class="formulario-conteiner-child">
                     <h1>Stay updated!</h1>
                     <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -41,9 +42,9 @@
             <div id="div-success">
                 <img src="imagens/icon-success.svg" alt="" id="icon-success">
                 <h1 id="agradecimento">Thanks for subscribing!</h1>
-                <p id="msg-success"><strong id="email_strong">AAA</strong></p>
-                <button id="btn-success"><p>Dismiss message</p></button>
+                <p id="msg-success"></p>    
             </div>
+            <button id="btn-success"><p>Dismiss message</p></button>
         </div>
     </main>
     <script src="js.js"></script>
