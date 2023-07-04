@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" sizes="32x32" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="subscribe-email">
+            <img src="imagens/illustration-sign-up-mobile.svg" alt="">
+            <div id="formulario-conteiner" class="child-main">
+                <div id="titulo" class="formulario-conteiner-child">
+                    <h1>Stay updated!</h1>
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    <ol>
+                        <li>Product discovery and building what matters</li>
+                        <li>Measuring to ensure updates are a success</li>
+                        <li>And much more!</li>
+                    </ol>
+                </div>
+                <div id="formulario" class="formulario-conteiner-child">
+                    <div id="email-titulo">
+                        <p id="titulo-email">Email addres</p>
+                        <p id="erro-msg">Valid email required</p>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="email@company.com">
+                    <button id="subscribe"><p>Subscribe to monthly newsletter</p></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="subscribe-success">
+            <div id="div-success">
+                <img src="imagens/icon-success.svg" alt="" id="icon-success">
+                <h1 id="agradecimento">Thanks for subscribing!</h1>
+                <p id="msg-success"><strong id="email_strong">AAA</strong></p>
+                <button id="btn-success"><p>Dismiss message</p></button>
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
