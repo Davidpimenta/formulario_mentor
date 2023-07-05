@@ -26,3 +26,19 @@ function subfunction(){
 
 }
 
+ setInterval(function(){
+   mudatela()
+  }, 900)
+
+function mudatela(){
+    var telawidth = window.innerWidth
+    var telaheight = window.innerHeight
+    var illustratiion = document.getElementById('illustration')
+
+    if(telawidth >= 768 && telaheight >= 600){
+        illustratiion.src = 'imagens/illustration-sign-up-desktop.svg'
+    } else {
+        illustratiion.src = 'imagens/illustration-sign-up-mobile.svg'
+    }
+    
+}
